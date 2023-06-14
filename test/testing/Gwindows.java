@@ -24,8 +24,8 @@ public class Gwindows extends Start {
 
         driver.findElement(By.xpath("(//input[@autocomplete='off'])[1]")).sendKeys("Максим");
         driver.findElement(By.xpath("(//input[@autocomplete='off'])[2]")).sendKeys("max@example.com");
-        driver.findElement(By.xpath("(//div[@class='col-md-9 col-sm-12'])[3]/textarea")).sendKeys("Мой адресс хз где находится");
-        driver.findElement(By.xpath("(//div[@class='col-md-9 col-sm-12'])[4]/textarea")).sendKeys("Это перманентный адрес");
+        driver.findElement(By.xpath("(//div[@class='col-md-9 col-sm-12'])[3]/textarea")).sendKeys("ввод адресата");
+        driver.findElement(By.xpath("(//div[@class='col-md-9 col-sm-12'])[4]/textarea")).sendKeys("назначение");
         driver.findElement(By.xpath("(//div[@class='text-right col-md-2 col-sm-12'])/button")).click();
         return this;
     }
